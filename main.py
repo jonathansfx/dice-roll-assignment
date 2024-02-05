@@ -1,24 +1,22 @@
-# python coin flip simulator
+# Dice roll assignment
 import random
-
-# menu loop
+n = 1
 loop = True
 while loop:
-# print menu 
-    print("Dice Roll Simulator Menu")
+# print menu
+    print("\nDice Roll Simulator Menu ")
     print("1. Roll Dice Once")
     print("2. Roll Dice 5 Times")
     print("3. Roll Dice 'n' Times")
     print("4. Roll Dice until Snake Eyes")
     print("5. Exit")
-
-    
     selection = input("Select an option (1-5): ")
-# selection
+
+# selector
     if selection == "1":
-        print("Option 1")
+        print("Option 1: ")
     elif selection == "2":
-        print("Option 2")
+        print("Option 2:")
     elif selection == "3":
         print("Option 3")
     elif selection == "4":
