@@ -45,13 +45,11 @@ while loop:
             randNum1 = random.randint(1,6)
             randNum2 = random.randint(1,6)
             sum = randNum1 + randNum2
+            print(f"{randNum1},{randNum2} sum:{sum}")
             n += 1
             if sum == 2:
+                print(f"SNAKE EYES!!!! it took you {n} rolls")
                 loop = False
-                print(f"SNAKE EYES!!!! it took you ${n} rolls")
-            elif:
-                loop = True
-
     elif selection == "5":
         print("EXIT")
         loop = False
